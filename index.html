@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pesquisa de Satisfação</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #ececec;
+        }
+
+        form {
+            width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+
+        <h1>Pesquisa de Satisfação</h1>
+
+        <label>Nome:</label>
+        <input type="text">
+
+        <label>Idade:</label>
+        <input type="number">
+
+        <label>Nota de 0 a 10:</label>
+        <input type="number" min="0" max="10">
+
+        <label>Opinião:</label>
+        <textarea></textarea>
+
+        <h3>Avaliação</h3>
+
+        <input type="radio" name="avaliacao"> Excelente <br>
+        <input type="radio" name="avaliacao"> Bom <br>
+        <input type="radio" name="avaliacao"> Regular <br>
+        <input type="radio" name="avaliacao"> Ruim <br><br>
+
+        <h3>O que você avaliou?</h3>
+
+        <input type="checkbox"> Atendimento <br>
+        <input type="checkbox"> Qualidade <br>
+        <input type="checkbox"> Preço <br>
+        <input type="checkbox"> Ambiente <br><br>
+
+        <button type="submit">Enviar pesquisa</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+</body>
+
+</html>
